@@ -2464,6 +2464,18 @@ input, select, textarea {
 			}
 
 /* List */
+	ul ul {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	ul ul li {
+		margin-bottom: 0;
+	}
+
+	ul li {
+		margin-bottom: 0;
+	}
 
 	ol {
 		list-style: decimal;
