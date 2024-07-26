@@ -3564,7 +3564,7 @@ input, select, textarea {
 			flex: 1 1 22%;
 			margin: 20px;
 			padding: 20px;
-			padding-top: 10px;
+			width: calc(25%-20px);
 			position: relative;
 			background-color: inherit;
 			border-left: 6px solid #3498db;
@@ -3575,6 +3575,7 @@ input, select, textarea {
 		
 		.timeline-date {
 			padding: 10px 20px;
+			top: 10px;
 			background: #3498db;
 			color: #fff;
 			position: absolute;
