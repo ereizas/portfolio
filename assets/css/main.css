@@ -3564,6 +3564,7 @@ input, select, textarea {
 			flex: 1 1 22%;
 			margin: 20px;
 			padding: 20px;
+			padding-top: 10px;
 			position: relative;
 			background-color: inherit;
 			border-left: 6px solid #3498db;
