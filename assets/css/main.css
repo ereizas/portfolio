@@ -2688,6 +2688,25 @@ input, select, textarea {
 
 		}
 
+/* Copyright */
+
+	ul.copyright {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+
+	ul.copyright li {
+		display: inline;
+		margin: 0 10px;
+	}
+
+	ul.copyright li a {
+		text-decoration: none;
+		color: inherit;
+	}
+
 /* Pagination */
 
 	ul.pagination {
@@ -2967,6 +2986,12 @@ input, select, textarea {
 
 		}
 
+
+/* Contact info */
+		#contact-info .inner {
+			padding-left: 20px; /* Move content more to the right */
+		}
+		
 /* Features */
 
 	.features {
