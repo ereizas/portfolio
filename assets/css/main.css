@@ -3562,7 +3562,7 @@ input, select, textarea {
 		
 		.timeline-event {
 			flex: 1 1 22%;
-			margin: 20px;
+			margin: 30px;
 			padding: 20px;
 			width: calc(25%-20px);
 			position: relative;
