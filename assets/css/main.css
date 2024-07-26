@@ -3556,6 +3556,55 @@ input, select, textarea {
 			-ms-filter: blur(2px);
 			filter: blur(2px);
 		}
+	
+		.timeline {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			max-width: 1200px;
+			margin: 50px auto;
+			padding: 20px;
+			background: #222698;
+			border-radius: 10px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+		}
+		
+		.timeline-event {
+			flex: 1 1 22%;
+			margin: 20px;
+			padding: 20px;
+			position: relative;
+			background-color: inherit;
+			border-left: 6px solid #3498db;
+			border-radius: 10px;
+			background: #2d3a69;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+		}
+		
+		.timeline-date {
+			padding: 10px 20px;
+			background: #3498db;
+			color: #fff;
+			position: absolute;
+			top: -20px;
+			width: 150px;
+			text-align: center;
+			border-radius: 10px;
+		}
+		
+		.timeline-content {
+			margin-top: 40px; /* Added margin to create space between date and content */
+			color: #FFF
+		}
+		
+		.timeline-content h3 {
+			margin-top: 0;
+			color: #3498db;
+		}
+		
+		.timeline-content i {
+			margin-right: 10px;
+		}
 
 /* Wrapper */
 
