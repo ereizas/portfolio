@@ -3608,6 +3608,12 @@ input, select, textarea {
 			text-align: center;
 			border-radius: 10px;
 		}
+
+		.timeline-image {
+			display: block;
+			max-width: 90%;
+			margin: 10px auto 0; /* Center the image and add some space above it */
+		}
 		
 		.timeline-content {
 			margin-top: 40px; /* Added margin to create space between date and content */
